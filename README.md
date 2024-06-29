@@ -39,10 +39,14 @@
 
 <tr><td>push -u origin *название ветки*</td><td>загрузка файлов с github</td></tr>
 
+<tr><td>remote add origin *ссылка на репозиторий*</td><td>подключение к репозиторию github</td></tr>
+
 <tr><td>remote</td>                          <td>проверка соединения с github</td></tr>
 
-<tr><td>push</td> -u origin *название ветки* <td>обновление репозитория </td></tr>
+<tr><td>push -u origin *название ветки*</td>  <td>обновление (загрука) репозитория</td></tr>
 
 <tr><td>pull</td>                            <td>выгрузка файлов с github</tr>
+
+<tr><td>clone</td>                            <td>копирование репозитория с github</tr>
 
 </table>
