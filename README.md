@@ -5,23 +5,23 @@
 ## команды консоли для git 
 
 <table>
-<tr><td>init</td><td>инициализация git в папке проекта</td></tr>
+<tr><td>init</td>                       <td>инициализация git в папке проекта</td></tr>
 
-<tr><td>add .</td><td>добавление файлов в ожидание записи git версиии проекта</td></tr>
+<tr><td>add .</td>                      <td>добавление файлов в ожидание записи git версиии проекта</td></tr>
 
-<tr><td>status</td><td>файлы в режиме ожидания для записи версии проекта git</td>></tr>
+<tr><td>status</td>                     <td>файлы в режиме ожидания для записи версии проекта git</td></tr>
 
-<tr><td>commit -m "*text*"</td><td>запись версии проекта</td></tr>
+<tr><td>commit -m "*text*"</td>         <td>запись версии проекта</td></tr>
 
-<tr><td>log</td><td>список коммитов, расширенный</td></tr>
+<tr><td>log</td>                        <td>список коммитов, расширенный</td></tr>
 
 <tr><td>log --oneline </td>              <td>список коммитов</td></tr>
 
 <tr><td>checkout *id commit*</td>        <td>перейти на версию файлов на момент этого коммита</td></tr>
 
-<tr><td>checkout master</td><td>вернуться к самой поздней версии master</td></tr> 
+<tr><td>checkout master</td>             <td>вернуться к самой поздней версии master</td></tr> 
 
-<tr><td>revert *id commit*</td>             <td>из редактора выйти :wq  - отмена коммита, файлы меняются</td></tr>
+<tr><td>revert *id commit*</td>          <td>из редактора выйти :wq  - отмена коммита, файлы меняются</td></tr>
 
 <tr><td>reset *id commit* </td>              <td>удалить коммиты до *id commit* файлы не меняются</td></tr>
 
