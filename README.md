@@ -1,46 +1,48 @@
 # Большой заголовок для репозитория
 репозиторий для изучения Git и GitHub на канале Гоша Дударь (**YouTube**)
 
-команды <br>
-git 
+команды git 
 
-init
+<table>
+<tr><td>init</td></tr>
 
-add .
+<tr><td>add .</td></tr>
 
-status
+<tr><td>status</td></tr>
 
-commit -m "*text*"
+<tr><td>commit -m "*text*"</td></tr>
 
-log
+<tr><td>log</td></tr>
 
-log --oneline               список коммитов
+<tr><td>log --oneline </td>              <td>список коммитов</td></tr>
 
-checkout *id commit*        перейти на версию файлов на момент этого коммита
+<tr><td>checkout *id commit*</td>        <td>перейти на версию файлов на момент этого коммита</td></tr>
 
-checkout master
+<tr><td>checkout master</td></tr>
 
-revert *id commit*              из редактора выйти :wq  - отмена коммита, файлы меняются
+<tr><td>revert *id commit*</td>             <td>из редактора выйти :wq  - отмена коммита, файлы меняются</td></tr>
 
-reset *id commit*               удалить коммиты до *id commit* файлы не меняются
+<tr><td>reset *id commit* </td>              <td>удалить коммиты до *id commit* файлы не меняются</td></tr>
 
-reset *id commit* hard          удалить коммиты до *id commit*, файлы меняются
+<tr><td>reset *id commit* hard  </td>        <td>удалить коммиты до *id commit*, файлы меняются</td></tr>
 
-branch *название ветки*         создание ветки
+<tr>branch *название ветки* </td>        <td>создание ветки</td></tr>
 
-checkout *название ветки*       перейти в ветку
+<tr><td>heckout *название ветки* </td>      <td>перейти в ветку</td></tr>
 
-branch -a                       информация веток
+<tr><td>branch -a</td>                       <td>информация веток</td></tr>
 
-checkout -b *название ветки*    создание и переход в ветку
+<tr><td>checkout -b *название ветки* </td>   <td>создание и переход в ветку</td></tr>
 
-merge *название ветки*          объединение веток
-
-
-remote                          проверка соединения с github
-
-push -u origin *название ветки* обновление репозитория 
-
-pull                            загрузка файлов с github
+<tr><td>merge *название ветки*</td>          <td>объединение веток</td></tr>
 
 
+<tr><td>push -u origin *название ветки*</td><td>загрузка файлов с github</td></tr>
+
+<tr><td>remote</td>                          <td>проверка соединения с github</td></tr>
+
+<tr><td>push</td> -u origin *название ветки* <td>обновление репозитория </td></tr>
+
+<tr><td>pull</td>                            <td>выгрузка файлов с github</tr>
+
+</table>
