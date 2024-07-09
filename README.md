@@ -37,7 +37,7 @@
 
 <tr><td>merge *название ветки*</td>          <td>объединение веток</td></tr>
 
-<tr><td>push -u origin *название ветки*</td><td>загрузка файлов с github</td></tr>
+<tr><td>push -u origin *название ветки*</td><td>выгрузка файлов в github</td></tr>
 
 <tr><td>remote add origin *ссылка на репозиторий*</td><td>подключение к репозиторию github</td></tr>
 
